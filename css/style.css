@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {text-align: center;}
+
+html { 
+	background: url(file:///C:/Users/badtrip/Downloads/archive/archive/background.gif) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
+
+}
+	h1 { font-family: VKSansDisplayDemibold;
+		font-size: 68.8px;
+		color: white;
+		margin-bottom: 0px;
+}
+
+p {color: white;
+		font-size: 16px;
+			font-family: VK Sans Display;
+			font-style: normal;
+			margin-top: 0px ; margin-bottom: 30px;
+}
+
+.knopka {color: white;
+	font-family: VK Sans Display;
+		font-style: normal;
+			font-size: 16px; 
+			padding: 16px 32px;
+			background: red;
+			display:inline-block;
+			background: rgba(255, 255, 255, 0.1);
+			border: 1px solid rgba(255, 255, 255, 0.3);
+			box-sizing: border-box;
+}
+
+.center1 { margin: 50% 0%; }
+
+.icons { position: fixed; bottom: 0px; left: 0px; width: 100%; margin-bottom: 56px; }
+.icons a { margin: 0px 8px; }
+.icons a img { opacity: 0.48; transition: 0.9s;}
+.icons a:hover img { opacity: 0.90; transition: 0.4s;}
+
+.button:hover {transform: scale(1.12); transition: 0.41s; }
+
+.button { transition: 0.83s; }

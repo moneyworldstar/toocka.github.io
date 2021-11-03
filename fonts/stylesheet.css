@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'VKSansDisplayDemibold';
+    src: url('VKSansDisplayDemibold.otf');
+    src: local('VK Sans Display Demibold'), local('VKSansDisplayDemibold'),
+        url('VKSansDisplayDemibold.otf') format('opentype'),
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VK Sans Display';
+    src: url('VKSansDisplayDisplayMedium.otf');
+    src: local('VK Sans Display Medium'), local('VKSansDisplayMedium'),
+        url('VKSansDisplayMedium.otf') format('opentype'),
+    font-weight: bold;
+    font-style: italic;
+}
+
