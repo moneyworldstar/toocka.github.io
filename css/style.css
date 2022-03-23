@@ -8,6 +8,9 @@
 body {text-align: center;}
 
 html { 
+	background: url(D:/toocka.github.io-main/background.png) no-repeat center center;
+	background-size: cover;
+	min-height: 100%;
 
 }
 	h1 { font-family: VKSansDisplayDemibold;
@@ -24,6 +27,14 @@ p {color: white;
 			color: rgba(255, 255, 255, 0.8);
 }
 
+h2 {color: white;
+		font-size: 35.23px;
+			font-family: VKSansDisplayDemibold;
+			font-style: normal;
+			margin-top: 0px ; margin-bottom: 30px;
+			color: rgba(255, 255, 255, 0.7);
+}
+
 a {color: white;
 		font-size: 16px;
 			font-family: VKSansDisplay;
@@ -33,7 +44,7 @@ a {color: white;
 }
 
 .knopka {color: white;
-	font-family: VKSansDisplay;
+	font-family: VKSansDisplayDemibold;
 		font-style: normal;
 			font-size: 16px; 
 			padding: 16px 32px;
@@ -46,6 +57,20 @@ a {color: white;
 			text-decoration: none;
 }
 
+.knopka2 {color: white;
+	font-family: VKSansDisplayDemibold;
+		font-style: normal;
+			font-size: 16px; 
+			padding: 16px 32px;
+			background: red;
+			display:inline-block;
+			background: rgba(255, 255, 255, 0.1);
+			border: 1px solid rgba(255, 255, 255, 0.3);
+			border-radius: 25px;
+			box-sizing: border-box;
+			text-decoration: none;
+			text-align: center;
+}
 
 .sverhu {color: white;
 		font-family: VKSansDisplay;
@@ -76,6 +101,16 @@ a {color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+
+.center2{
+	height: calc(100vh - 20px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	hyphens: manual;
 }
 
 .icons { position: fixed; bottom: 0px; left: 0px; width: 100%; margin-bottom: 56px; }
